@@ -1,0 +1,85 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    margin-bottom: -200px;
+}
+
+.mid {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.label {
+    width: 80%;
+    max-width: 900px;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.label ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.label li {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    flex: 0 0 auto;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.label img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.label li:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.label li span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+}
+
+.label li .time {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.label li .temp {
+    color: #ff6600;
+}
